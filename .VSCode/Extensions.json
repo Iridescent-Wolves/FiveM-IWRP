@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "codeium.codeium",
+    "ritwickdey.liveserver",
+    "ms-vscode.hexeditor",
+    "wayou.vscode-todo-highlight",
+    "Gruntfuggly.todo-tree",
+    "esbenp.prettier-vscode",
+    "johnpapa.vscode-peacock",
+    "PKief.material-icon-theme",
+    "sumneko.lua",
+    "dbaeumer.vscode-eslint",
+    "yzhang.markdown-all-in-one",
+    "xabikos.javascriptsnippets",
+    "donjayamanne.jquerysnippets",
+    "fivem-vscode.fivem-vscode"
+  ]
+}
