@@ -1,0 +1,12 @@
+# Folders
+**/.GitHub
+**/.VSCode
+**/Cache
+**/Node_Modules
+
+# Files
+desktop.ini
+yarn.lock
+
+*.log
+*.yarn.installed
