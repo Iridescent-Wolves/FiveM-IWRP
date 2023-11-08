@@ -1,0 +1,48 @@
+{
+  "global": {
+    "serverName": "IWRP",
+    "language": "en",
+    "menuPageKey": "Tab",
+    "menuEnabled": true,
+    "menuAlignRight": true,
+    "hideDefaultAnnouncement": false,
+    "hideDefaultDirectMessage": false,
+    "hideDefaultWarning": false,
+    "hideDefaultScheduledRestartWarning": false
+  },
+  "fxRunner": {
+    "autostart": true,
+    "serverDataPath": "C:/Servers/Games/Grand Theft Auto V/FiveM/IWRP-DEV/txData/Server_Default",
+    "cfgPath": "C:/Servers/Games/Grand Theft Auto V/FiveM/IWRP-DEV/txData/Server_Default/Server.cfg",
+    "onesync": "on"
+  },
+  "monitor": {
+    "resourceStartingTolerance": 600,
+    "restarterSchedule": [
+      "00:00",
+      "12:00"
+    ]
+  },
+  "webServer": {
+    "disableNuiSourceCheck": false
+  },
+  "playerDatabase": {
+    "whitelistMode": "guildRoles",
+    "whitelistRejectionMessage": "Please Join the Discord Server Below & Follow the Instructions To Join the Server:\n\nhttps://discord.gg/6jUUCZHBGU",
+    "banRejectionMessage": "You Can Join the Following Discord Server To Appeal This Ban:\n\nhttps://discord.gg/NotSet",
+    "requiredBanHwidMatches": 1,
+    "onJoinCheckBan": true,
+    "whitelistedDiscordRoles": [
+      "1146936371483791392"
+    ]
+  },
+  "discordBot": {
+    "enabled": false,
+    "guild": "1146933492677091360",
+    "token": "",
+    "announceChannel": "1147051044375900190",
+    "embedJson": "{\n  \"title\": \"{{serverName}}\",\n  \"url\": \"{{serverBrowserUrl}}\",\n  \"description\": \"You can configure this embed in `txAdmin > Settings > Discord Bot`, and edit everything from it (except footer).\",\n  \"fields\": [\n    {\n      \"name\": \"> STATUS\",\n      \"value\": \"```\\n{{statusString}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> PLAYERS\",\n      \"value\": \"```\\n{{serverClients}}/{{serverMaxClients}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> F8 CONNECT COMMAND\",\n      \"value\": \"```\\nconnect 123.123.123.123\\n```\"\n    },\n    {\n      \"name\": \"> NEXT RESTART\",\n      \"value\": \"```\\n{{nextScheduledRestart}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> UPTIME\",\n      \"value\": \"```\\n{{uptime}}\\n```\",\n      \"inline\": true\n    }\n  ],\n  \"image\": {\n    \"url\": \"https://i.imgur.com/ZZRp4pj.png\"\n  },\n  \"thumbnail\": {\n    \"url\": \"https://i.imgur.com/9i9lvOp.png\"\n  }\n}",
+    "embedConfigJson": "{\n  \"onlineString\": \"🟢 Online\",\n  \"onlineColor\": \"#0BA70B\",\n  \"partialString\": \"🟡 Partial\",\n  \"partialColor\": \"#FFF100\",\n  \"offlineString\": \"🔴 Offline\",\n  \"offlineColor\": \"#A70B28\",\n  \"buttons\": [\n    {\n      \"emoji\": \"1062338355909640233\",\n      \"label\": \"Connect\",\n      \"url\": \"{{serverJoinUrl}}\"\n    },\n    {\n      \"emoji\": \"1062339910654246964\",\n      \"label\": \"txAdmin Discord\",\n      \"url\": \"https://discord.gg/txAdmin\"\n    },\n    {\n      \"emoji\": \"😏\",\n      \"label\": \"ZAP-Hosting\",\n      \"url\": \"https://zap-hosting.com/txadmin6\"\n    }\n  ]\n}"
+  },
+  "logger": {}
+}
