@@ -1,0 +1,91 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"peacock.color": "#FF0000",
+		"Lua.runtime.version": "Lua 5.4",
+		"Lua.runtime.fileEncoding": "utf8",
+    "files.exclude": {
+      "**/Cache": true,
+      "**/Node_Modules": true,
+      "desktop.ini": true,
+      "yarn.lock": true,
+      "*.yarn.installed": true
+    },
+    "search.exclude": {
+      "**/.GitHub": true,
+      "**/.VSCode": true,
+      "**/Cache": true,
+      "**/Node_Modules": true,
+      "desktop.ini": true,
+      "yarn.lock": true,
+      "*.log": true,
+      "*.yarn.installed": true
+    },
+		"workbench.colorCustomizations": {
+      "titleBar.border": "#ff0000",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#ff0000",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "titleBar.inactiveBackground": "#ff000099",
+      "commandCenter.border": "#e7e7e799",
+      "tab.activeBorder": "#ff3333",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.background": "#ff3333",
+      "activityBar.activeBackground": "#ff3333",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.foreground": "#000000",
+      "activityBarBadge.background": "#00df00",
+      "sideBar.border": "#ff3333",
+      "statusBar.border": "#ff0000",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBar.background": "#ff0000",
+      "statusBar.debuggingBorder": "#00ffff",
+      "statusBar.debuggingForeground": "#000000",
+      "statusBar.debuggingBackground": "#00ffff",
+      "statusBarItem.hoverBackground": "#ff3333",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "statusBarItem.remoteBackground": "#ff0000",
+      "panel.border": "#ff3333",
+      "sash.hoverBorder": "#ff3333",
+      "editorGroup.border": "#ff3333"
+    },
+		"Lua.format.defaultConfig": {
+			"max_line_length": "1024",
+			"end_statement_with_semicolon": "same_line",
+			"align_continuous_inline_comment": "false",
+			"align_continuous_assign_statement": "false"
+		},
+		"Lua.workspace.library": [
+      ".VSCode/Libraries/MySQL.lua"
+    ],
+		"Lua.diagnostics.globals": [
+      "MySQL",
+      "FX_Version",
+      "Lua54",
+      "Games",
+      "Dependencies",
+      "Provide",
+      "Version",
+      "Author",
+      "Description",
+      "Repository",
+      "Resource_Type",
+      "UI_Page",
+      "LoadScreen",
+      "Client_Scripts",
+      "Server_Scripts",
+      "Shared_Scripts",
+      "Files",
+      "Maps",
+      "ConVar_Category",
+      "WebPack_Config"
+		],
+		"Lua.diagnostics.disable": [
+			"undefined-global"
+		]
+	}
+}
