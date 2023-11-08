@@ -1,0 +1,24 @@
+{
+  "name": "BaseChat",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@types/VUE": "^2.0.0",
+    "WebPack": "4",
+    "CSS-Loader": "^3.4.2",
+    "TypeScript": "^3.8.3",
+    "TS-Loader": "^6.2.1",
+    "VUE": "^2.6.11",
+    "VUE-Loader": "^15.9.0",
+    "VUE-Template-Compiler": "^2.6.11",
+    "Copy-WebPack-Plugin": "^5.1.1",
+    "HTML-WebPack-Plugin": "^3.2.0",
+    "HTML-WebPack-Inline-Source-Plugin": "^0.0.10"
+  },
+  "devDependencies": {
+    "Command-Line-Args": "^5.1.1",
+    "WebPack-CLI": "^3.3.11",
+    "WebPack-Dev-Server": "^3.10.3"
+  }
+}
