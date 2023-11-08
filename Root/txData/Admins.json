@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Senate",
+    "master": true,
+    "password_hash": "$2a$11$550/16fPswivRoOp4ZUaEO1U7BK.xnTweQd/nODCv2prNp7Y8ua.e",
+    "providers": {
+      "citizenfx": {
+        "id": "S1ARA117",
+        "identifier": "fivem:2382814",
+        "data": {}
+      },
+      "discord": {
+        "id": "271369278249369611",
+        "identifier": "discord:271369278249369611",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "AppleCinnamon",
+    "master": false,
+    "password_hash": "$2a$11$tFjTggsJPjsslefmjFuuyO.2LE2p.DsHGVtaeTMOyM6.l5Pi2SItK",
+    "providers": {
+      "discord": {
+        "id": "440580705576157196",
+        "identifier": "discord:440580705576157196",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "settings.view",
+      "console.view",
+      "control.server",
+      "commands.resources",
+      "server.cfg.editor",
+      "txadmin.log.view",
+      "menu.vehicle",
+      "menu.clear_area",
+      "menu.viewids",
+      "players.message",
+      "players.whitelist",
+      "players.warn",
+      "players.kick",
+      "players.ban",
+      "players.freeze",
+      "players.heal",
+      "players.playermode",
+      "players.spectate",
+      "players.teleport",
+      "players.troll"
+    ]
+  }
+]
