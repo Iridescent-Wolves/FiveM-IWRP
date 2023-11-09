@@ -1,0 +1,16 @@
+{
+  "name": "WebPack-Builder",
+  "author": "",
+  "version": "1.0.1",
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No Test Specified!\" && exit 1"
+  },
+  "dependencies": {
+    "Async": "^3.1.0",
+    "WebPack": "^4.41.2",
+    "Worker-Farm": "^1.7.0"
+  }
+}
